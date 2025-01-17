@@ -50,7 +50,11 @@ You need to enter the scene, either an existing scene or a newly added one by ri
 ![!](7.png)
 
 **1. Graph Inspector:** This section provides general information about the graph, such as summary, title, and various available inputs and outputs. 
+
 **2. Blackboard:** This is the storage area for global variables that can be accessed by all nodes in the graph. These variables can be numbers, text, objects, or other data types. 
+
 **3. Graph Variables:** These are local variables that only apply within the current graph. These variables can be used to store temporary data needed in calculations or logic within the graph. 
+
 **4. On Start Event:** This node will run once when the game starts or when the object with this script is first activated. It is usually used for initializing variables, loading assets, or performing other setup actions. 
+
 **5. On Update Event:** This node will run every frame (once per game update). It is usually used for continuous updates, such as checking user input, calculating physics, or drawing objects on the screen.
